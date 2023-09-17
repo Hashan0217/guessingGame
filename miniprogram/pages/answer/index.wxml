@@ -1,0 +1,23 @@
+<!-- game.wxml -->
+<view class="game-page">
+
+  <!-- 谜题容器 -->
+  <view class="puzzle-container">
+    <!-- 谜题题目 -->
+    <view class="puzzle-question">{{ puzzleQuestion }}</view>
+
+    <!-- 输入答案 -->
+    <input class="answer-input" placeholder="请输入答案" bindinput="onInput"  value="{{userAnswer}}"></input>
+  </view>
+
+  <!-- 回答完毕按钮 -->
+  <button class="finish-button" bindtap="finishAnswer">回答完毕</button>
+
+  <!-- 闹钟样式 -->
+  <view class="clock">
+    <!-- 计时数字 -->
+    <view class="timer">{{ timer }}</view>
+  </view>
+</view>
+
+

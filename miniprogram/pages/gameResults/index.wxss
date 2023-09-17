@@ -1,0 +1,32 @@
+/* pages/gameOver/index.wxss *//* game-fail.wxss */
+/* 游戏失败页面样式 */
+.game-fail-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fbd12a; /* 设置背景颜色 */
+  color: #fff;
+}
+
+
+
+/* 失败提示样式 */
+.fail-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* 返回按钮样式 */
+.return-button {
+  background-color: #ff5722; /* 设置按钮背景颜色 */
+  color: #fff; /* 按钮文字颜色为白色 */
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #000; /* 添加按钮阴影效果 */
+}

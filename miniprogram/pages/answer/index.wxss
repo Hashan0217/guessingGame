@@ -1,0 +1,61 @@
+/* pages/answer/index.wxss */
+/* game.wxss */
+/* 答题页面样式 */
+.game-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fbd12a; /* 设置背景颜色 */
+  color: #fff;
+}
+
+
+
+/* 谜题容器样式 */
+.puzzle-container {
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明的背景颜色 */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom:90px;
+}
+
+/* 谜题题目样式 */
+.puzzle-question {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* 输入框样式 */
+.answer-input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 0 auto;
+}
+/*按钮*/
+.finish-button{
+  background-color: #fff;
+}
+
+/* 闹钟样式 */
+.clock {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* 半透明的背景颜色 */
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* 计时数字样式 */
+.timer {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}

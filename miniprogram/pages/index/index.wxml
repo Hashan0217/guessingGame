@@ -1,0 +1,8 @@
+<!-- 开始页面 -->
+<view class="start-page">
+  <!-- 标题 -->
+  <view class="title">小哈猜谜游戏</view>
+
+  <!-- 开始按钮 -->
+  <button class="start-button"  bindtap="redirectToGame">开始游戏</button>
+</view>

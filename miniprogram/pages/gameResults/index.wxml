@@ -1,0 +1,10 @@
+
+<!-- game-fail.wxml -->
+<view class="game-fail-page">
+  <!-- 提示 -->
+  <view class="fail-text" wx:if="{{target==1}}">恭喜您！通关啦~</view>
+  <view class="fail-text" wx:else>很遗憾，游戏未通过。</view>
+      <view class="fail-text" >积分：{{num}}</view>
+  <!-- 返回按钮 -->
+  <button class="return-button" bindtap="returnToMenu">返回菜单</button>
+</view>
